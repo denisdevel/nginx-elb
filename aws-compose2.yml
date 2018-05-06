@@ -1,0 +1,7 @@
+   nginx2:
+     image: nginx 
+     cpu_shares: 100
+     mem_limit: 262144000
+     ports:
+     - "80:80"
+     restart: "always"

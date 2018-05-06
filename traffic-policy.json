@@ -1,0 +1,13 @@
+{
+   "RuleType": "failover",
+   "Primary": {
+      "EndpointReference | RuleReference": " nginx-elb1-323133597.us-east-1.elb.amazonaws.com ",
+      "EvaluateTargetHealth": "true" | "false",
+      "HealthCheck": "optional health check ID"
+   },
+   "Secondary": {
+      "EndpointReference | RuleReference": " nginx-elb2-1831745144.us-east-1.elb.amazonaws.com ",
+      "EvaluateTargetHealth": "true" | "false",
+      "HealthCheck": "optional health check ID"
+   }
+}

@@ -1,0 +1,7 @@
+   nginx1:
+     cpu_shares: 100
+     mem_limit: 262144000
+     image: nginx 
+     ports:
+     - "80:80"
+     restart: "always"

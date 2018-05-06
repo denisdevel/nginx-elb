@@ -1,0 +1,500 @@
+  153   kubectl get pods --output=wide
+  154  kubectl get deployments
+  155  kubectl get replicasets
+  156  htop
+  157  iftop
+  158  exit
+  159  kubectl get nodes
+  160  kubectl get nodes
+  161  kubectl get nodes
+  162  kubectl get nodes
+  163  kubectl get nodes
+  164  kubectl get svc
+  165  history | grep proxy
+  166  kubectl get minions
+  167  kubectl get 
+  168  kubeadm proxy
+  169  kubelet 
+  170  kubelet proxy
+  171  kubectl proxy
+  172  kubectl proxy --help
+  173  kubectl proxy --accept-hosts='^*$' --address='192.168.88.10'
+  174  kubectl get nodes
+  175  kubectl get pods
+  176  kubectl exec
+  177  kubectl exec -ti nginx-b7mq5 -- /bin/bash
+  178  kubectl get pods
+  179  kubectl exec -ti nginx-5998g  -- /bin/bash
+  180  kubectl get pods
+  181  kubectl get pods --output=wide
+  182  kubectl get nodes
+  183  kubectl get pods --output=wide
+  184  kubectl get nodes --output=wide
+  185  kubectl get nodes
+  186  kubectl get nodes
+  187  kubectl get nodes
+  188  kubectl get nodes
+  189  kubectl get nodes
+  190  kubectl get nodes
+  191  watch -d kubectl get nodes
+  192  kubectl get pods --all-namespaces
+  193  kubectl describe pods kubernetes-dashboard-5c469b58b8-4ccwm 
+  194  kubectl describe  kubernetes-dashboard-5c469b58b8-4ccwm 
+  195  id
+  196  kubectl describe pods kubernetes-dashboard-5c469b58b8-4ccwm
+  197  kubectl describe pod kubernetes-dashboard-5c469b58b8-4ccwm
+  198  kubectl describe 
+  199  kubectl describe po
+  200  kubectl get pods --all-namespaces
+  201  kubectl describe po nginx-ts274
+  202  kubectl describe po kubernetes-dashboard-5c469b58b8-4ccwm
+  203  kubectl describe po kubernetes-dashboard-5c469b58b8-4ccwm --namespace=kube-system
+  204  clear
+  205  kubectl describe po kubernetes-dashboard-5c469b58b8-4ccwm --namespace=kube-system
+  206  ls -la
+  207  vim dashboard-rolebinding.yaml 
+  208  kubectl get pods --all-namespaces
+  209  kubectl get pods --all-namespaces --output=wide
+  210  kubectl get pods --all-namespaces --output=wide
+  211  kubectl get pods --all-namespaces --output=wide
+  212  kubectl get pods --all-namespaces --output=wide
+  213  kubectl get nods --all-namespaces --output=wide
+  214  kubectl get nods 
+  215  kubectl get nodes 
+  216  kubectl get nods --all-namespaces --output=wide
+  217  kubectl get nodes --all-namespaces --output=wide
+  218  kubectl get nodes --all-namespaces --output=wide
+  219  kubectl get nods --all-namespaces --output=wide
+  220  kubectl get nodes --all-namespaces --output=wide
+  221  kubectl get pods --all-namespaces --output=wide
+  222  kubectl get nodes
+  223  htop
+  224  htop
+  225  cd proj/
+  226  git clone https://github.com/denisdevel/joomla
+  227  cd joomla/
+  228  kompose up -f docker-compose-k.yml 
+  229  docker login
+  230  kompose up -f docker-compose-k.yml 
+  231  grep -i 'dns-1035' -R .
+  232  ls -la
+  233  vim docker-db
+  234  vim docker-compose-k.yml 
+  235  vim docker-compose2.yml 
+  236  vim docker-db 
+  237  kompose up -f docker-compose2.yml 
+  238  vim docker-compose2.yml 
+  239  kompose up -f docker-compose2.yml 
+  240  ls -la
+  241  vim docker-apache-php 
+  242  vim docker-compose2.yml 
+  243  kompose up -f docker-compose2.yml 
+  244  kompose up -f docker-compose2.yml 
+  245  vim docker-compose2.yml 
+  246  vim docker-apache-php 
+  247  php
+  248  php -e 'echo $DATABASE_SERVER'
+  249  php 'echo $DATABASE_SERVER'
+  250  id
+  251  kubect get nodes
+  252  cd proj/
+  253  kubect get nodes
+  254  kubectl get nodes
+  255  ls -la
+  256  cd proj/
+  257  ls -la
+  258  vim joomla/joomla/configuration.php 
+  259  php joomla/joomla/configuration.php 
+  260  vim joomla/joomla/configuration.php 
+  261  vim ../test/test.php 
+  262  php ../test/test.php 
+  263  vim joomla/joomla/configuration.php 
+  264  php joomla/joomla/configuration.php 
+  265  vim joomla/joomla/configuration.php 
+  266  php joomla/joomla/configuration.php 
+  267  vim joomla/joomla/configuration.php 
+  268  php joomla/joomla/configuration.php 
+  269  vim joomla/joomla/configuration.php 
+  270  php joomla/joomla/configuration.php 
+  271  vim joomla/joomla/configuration.php 
+  272  php joomla/joomla/configuration.php 
+  273  vim joomla/joomla/configuration.php 
+  274  php joomla/joomla/configuration.php 
+  275  vim joomla/joomla/configuration.php 
+  276  php joomla/joomla/configuration.php 
+  277  vim joomla/joomla/configuration.php 
+  278  php joomla/joomla/configuration.php 
+  279  vim joomla/joomla/configuration.php 
+  280  cat joomla/joomla/configuration.php 
+  281  reboot
+  282  sudo reboot
+  283  cd
+  284  cd proj/nginx/
+  285  ls -la
+  286  cat Dockerfile 
+  287  cd ..
+  288  cd joomla/
+  289  ls -la
+  290  cat docker-db 
+  291  cat docker-db 
+  292  cat docker-compose.yml 
+  293  ls -la
+  294  cat docker-db 
+  295  nmap
+  296  nmap 83.252.49.165 -p 34010
+  297  nmap 83.252.49.165 -p 34010 -Pn
+  298  nmap 83.252.49.165 -p 34010 -Pn
+  299  nmap 83.252.49.165 -p 34010 -Pn
+  300  nmap 83.252.49.165 -p 34010 -Pn
+  301  ls -la
+  302  cd
+  303  pwd
+  304  history | grep aws
+  305  history | grep ecs
+  306  exit
+  307  id
+  308  pwd
+  309  ls -la
+  310  cd proj/
+  311  ls -la
+  312  cd nginx/.
+  313  ls -la
+  314  cat Jenkinsfile 
+  315  ls -la
+  316  cat docker-machine.sh 
+  317  cd ..
+  318  mkdir nginx-nlb
+  319  pwd
+  320  export
+  321  cd
+  322  export
+  323  ls -la
+  324  export
+  325  ls -la
+  326  source .bashrc
+  327  export
+  328  Docker images
+  329  cd proj/nginx
+  330  ls -la
+  331  cat Dockerfile 
+  332  cd ..
+  333  cp nginx/* nginx-nlb/
+  334  cd nginx-nlb/
+  335  ls -la
+  336  vim Dockerfile 
+  337  rm nginx.conf 
+  338  rm README.md 
+  339  rm index.html 
+  340  ls -la
+  341  cd ..
+  342  cd nginx-nlb/
+  343  cp ../joomla/docker-compose* .
+  344  cp ../joomla/aws-compose.yml .
+  345  ls -la
+  346  cat aws-compose.yml 
+  347  ls -la ~
+  348  cat ~/logs/
+  349  cd ..
+  350  ls -la
+  351  cat 1 
+  352  rm 1
+  353  ls -la
+  354  aws ecr create-repository --repository-name nginx-nlb
+  355  aws ecr create-repository --repository-name nginx-nlb
+  356  ecs-cli up --keypair main --capability-iam --size 1 --instance-type t2.micro
+  357  ecs-cli 
+  358  ecs-cli down --keypair main --capability-iam --size 2 --instance-type t2.micro
+  359  ecs-cli 
+  360  aws 
+  361  sudo aws
+  362  sudo aws help
+  363  ls -la
+  364  cd nginx-nlb/
+  365  ls -la
+  366  cat aws-compose.yml 
+  367  ls -la
+  368  ls -la ~/proj/joomla/
+  369  cat aws-compose.yml 
+  370  vim aws-compose.yml 
+  371  docker-compose 
+  372  docker-compose --help
+  373  vim aws-compose.yml 
+  374  ecs-cli compose
+  375  ecs-cli compose run -f aws-compose.yml --verbose
+  376  ecs-cli compose -f aws-compose.yml --verbose run
+  377  vim aws-compose.yml 
+  378  ecs-cli compose -f aws-compose.yml --verbose run
+  379  ecs-cli compose -f aws-compose.yml --verbose run
+  380  ecs-cli 
+  381  ecs-cli ps
+  382  ecs-cli ps
+  383  vi /etc/resolv.conf 
+  384  sudo vi /etc/resolv.conf 
+  385  ping ecs.us-east-1.amazonaws.com/
+  386  ping ecs.us-east-1.amazonaws.com
+  387  ping ecs.us-east-1.amazonaws.com
+  388  ping ecs.us-east-1.amazonaws.com
+  389  ping ecs.us-east-1.amazonaws.com
+  390  ecs-cli ps
+  391  id
+  392  ecs-cli ps
+  393  htop
+  394  ls -la
+  395  ls -la
+  396  ecs-cli ps
+  397  vim /etc/resolv.conf 
+  398  sudo vim /etc/resolv.conf 
+  399  sudo vim /etc/resolv.conf 
+  400  ecs-cli ps
+  401  export
+  402  source .bashrc 
+  403  ecs-cli ps
+  404  ecs-cli ps -a
+  405  history
+  406  ls -la
+  407  cd proj/nginx-nlb/
+  408  ls -la
+  409  ecs-cli compose run -f aws-compose.yml 
+  410  history
+  411  ecs-cli compose -f aws-compose.yml --verbose run
+  412  ecs-cli 
+  413  ecs-cli down
+  414  ecs-cli compose -f aws-compose.yml --verbose run
+  415  ecs-cli compose -f aws-compose.yml build
+  416  ecs-cli compose
+  417  ecs-cli ps
+  418  history
+  419  ecs-cli down --keypair main --capability-iam --size 2 --instance-type t2.micro
+  420  ecs-cli up --keypair main --capability-iam --size 2 --instance-type t2.micro
+  421  ecs-cli ps
+  422  ecs-cli compose -f aws-compose.yml build
+  423  ecs-cli compose -f aws-compose.yml
+  424  ecs-cli compose -f aws-compose.yml up
+  425  ecs-cli compose 
+  426  ecs-cli compose down
+  427  ecs-cli compose -f aws-compose.yml down
+  428  ecs-cli compose -f aws-compose.yml up
+  429  ecs-cli compose -f aws-compose.yml down
+  430  ecs-cli compose -f aws-compose.yml down
+  431  ecs-cli compose -f aws-compose.yml 
+  432  ecs-cli compose -f aws-compose.yml ps
+  433  ecs-cli compose list
+  434  ls -la
+  435  vim aws-compose.yml 
+  436  vim Dockerfile 
+  437  vim docker-compose.yml 
+  438  rm docker-compose*
+  439  ecs-cli compose -f aws-compose.yml 
+  440  ecs-cli compose -f aws-compose.yml stop
+  441  docker images
+  442  docker pull nginx
+  443  ls -la
+  444  vim aws-compose.yml 
+  445  vim Dockerfile 
+  446  vim aws-compose.yml 
+  447  ecs-cli ps
+  448  ecs-cli 
+  449  ecs-cli images
+  450  ecs-cli pull nginx
+  451  history | grep reposit
+  452  aws ecr create-repository --repository-name nginx-nlb
+  453  sudo aws ecr create-repository --repository-name nginx-nlb
+  454  sudo ecs-cli pull nginx
+  455  ecs-cli pull nginx
+  456  sudo aws ecr create-repository --repository-name nginx
+  457  ecs-cli pull nginx
+  458  vim aws-compose.yml 
+  459  ecs-cli compose -f aws-compose.yml up
+  460  ecs-cli compose -f aws-compose.yml down
+  461  ecs-cli compose -f aws-compose.yml down
+  462  ecs-cli compose -f aws-compose.yml down
+  463  ecs-cli compose -f aws-compose.yml down
+  464  ecs-cli compose -f aws-compose.yml 
+  465  ecs-cli compose -f aws-compose.yml run
+  466  ecs-cli compose stop
+  467  ecs-cli compose -f aws-compose.yml stop
+  468  ecs-cli compose -f aws-compose.yml start
+  469  vim aws-compose.yml 
+  470  ecs-cli 
+  471  ecs-cli down
+  472  ecs-cli compose -f aws-compose.yml up
+  473  vim aws-compose.yml 
+  474  ecs-cli compose -f aws-compose.yml up
+  475  vim aws-compose.yml 
+  476  ecs-cli compose -f aws-compose.yml up
+  477  vim aws-compose.yml 
+  478  ecs-cli compose -f aws-compose.yml up
+  479  vim aws-compose.yml 
+  480  ecs-cli compose -f aws-compose.yml up
+  481  vim aws-compose.yml 
+  482  ecs-cli compose -f aws-compose.yml up
+  483  history
+  484  ecs-cli up --keypair main --capability-iam --size 2 --instance-type t2.micro
+  485  ecs-cli compose -f aws-compose.yml up
+  486  ecs-cli compose 
+  487  ecs-cli ps
+  488  ecs-cli pull 653152952980.dkr.ecr.us-east-1.amazonaws.com/nginx
+  489  ecs-cli images
+  490  ecs-cli push 653152952980.dkr.ecr.us-east-1.amazonaws.com/nginx
+  491  docker images
+  492  vim aws-compose.yml 
+  493  ecs-cli compose -f aws-compose.yml up
+  494  vim aws-compose.yml 
+  495  ecs-cli compose -f aws-compose.yml up
+  496  ecs-cli ps
+  497  ecs-cli ps
+  498  ecs-cli ps
+  499  ecs-cli ls
+  500  ecs-cli 
+  501  export
+  502  source .bashrc 
+  503  history
+  504  cd proj/nginx-nlb/
+  505  history | grep down
+  506  ecs-cli compose -f aws-compose.yml down
+  507  ecs-cli down --keypair main --capability-iam --size 2 --instance-type t2.micro
+  508  ecs-cli down 
+  509  ecs-cli down --keypair main --capability-iam --size 2 --instance-type t2.micro
+  510  ecs-cli  --keypair main --capability-iam --size 2 --instance-type t2.micro
+  511  ecs-cli  up --keypair main --capability-iam --size 2 --instance-type t2.micro
+  512  cd ..
+  513  ls -la
+  514  cd ..
+  515  ls -la
+  516  history | grep instanc
+  517  ecs-cli  
+  518  ecs-cli  configure
+  519  id
+  520  vim .ecs/config 
+  521  ecs-cli  configure
+  522  ecs-cli down
+  523  ecs-cli  up --keypair main --capability-iam --size 
+  524  ecs-cli  up --keypair main --capability-iam --size 4 --instance-type t2.micro
+  525  cd proj/nginx
+  526  cd ..
+  527  cd nginx-nlb/
+  528  ls -la
+  529  history | grep compose
+  530  ecs-cli compose -f aws-compose.yml up
+  531  cat aws-compose.yml 
+  532  ecs-cli ps
+  533  aws elb describe-load-balancers
+  534  sudo aws elb describe-load-balancers
+  535  aws elb describe-load-balancers --load-balancer-name my-load-balancer
+  536  sudo aws elb describe-load-balancers --load-balancer-name my-load-balancer
+  537  ecs-cli ps
+  538  ecs-cli down
+  539  ecs-cli up --launch-type FARGATE --capability-iam
+  540  ecs-cli compose -f aws-compose.yml up
+  541  vim ~/.ecs/config 
+  542  ecs-cli  up --keypair main --capability-iam --size 2 --instance-type t2.micro
+  543  ecs-cli  up --keypair main --capability-iam --size 2 --instance-type t2.micro
+  544  ecs-cli down
+  545  ecs-cli  up --keypair main --capability-iam --size 2 --instance-type t2.micro
+  546  ecs-cli  up --keypair main --capability-iam --size 2 --instance-type t2.micro --force
+  547  ecs-cli ps
+  548  ecs-cli  up --keypair main --capability-iam --size 2 --instance-type t2.micro --force
+  549  ecs-cli compose -f aws-compose.yml up
+  550  ecs-cli ps
+  551  ecs-cli compose -f aws-compose.yml 
+  552  ecs-cli compose -f aws-compose.yml down
+  553  vim aws-compose.yml 
+  554  ecs-cli compose
+  555  ecs-cli compose -f aws-compose.yml up
+  556  ecs-cli ps
+  557  ecs-cli compose -f aws-compose.yml -c nginx up
+  558  cp aws-compose.yml aws-compose1.yml 
+  559  cp aws-compose.yml aws-compose2.yml 
+  560  vim aws-compose1.yml 
+  561  vim aws-compose2.yml 
+  562  ecs-cli compose -f aws-compose1.yml up
+  563  ecs-cli compose -f aws-compose2.yml up
+  564  ecs-cli ps
+  565  ecs-cli compose -f aws-compose2.yml 
+  566  vim aws-compose2.yml 
+  567  ecs-cli ps
+  568  ecs-cli compose 
+  569  vim nginx-task.json
+  570  aws ecs register-task-definition --cli-input-json file://nginx-task.json
+  571  sudo aws ecs register-task-definition --cli-input-json file://nginx-task.json
+  572  vim nginx-task.json
+  573  sudo aws ecs register-task-definition --cli-input-json file://nginx-task.json
+  574  ecs-cli ps
+  575  sudo aws ecs run-task --task-definition hello-world
+  576  sudo aws ecs run-task --task-definition nginx
+  577  sudo aws ecs run-task --task-definition nginx
+  578  ecs-cli ps
+  579  sudo aws ecs run-task --task-definition nginx
+  580  sudo aws ecs run-task 
+  581  sudo aws ecs 
+  582  sudo aws ecs run-task help
+  583  sudo aws ecs run-task --task-definition nginx --cluster nginx
+  584  ecs-cli ps
+  585  ecs-cli compose -f aws-compose1.yml
+  586  ecs-cli compose -f aws-compose1.yml down
+  587  ecs-cli ps
+  588  sudo aws ecs run-task --task-definition nginx --cluster nginx
+  589  ecs-cli ps
+  590  sudo aws ecs 
+  591  sudo aws ecs help
+  592  sudo aws ecs delete-service nginx
+  593  sudo aws ecs help
+  594  sudo aws ecs delete-service nginx --cluster nginx
+  595  sudo aws ecs delete-service nginx 
+  596  sudo aws ecs delete-service
+  597  sudo aws ecs delete-service help
+  598  sudo aws ecs delete-task --task-definition nginx --cluster nginx
+  599  sudo aws ecs deregister-task-definition  nginx --cluster nginx
+  600  sudo aws ecs deregister-task-definition --cluster nginx
+  601  ecs-cli ps
+  602  sudo aws ecs run-task --task-definition nginx help
+  603  sudo aws ecs run-task --task-definition --count 2 nginx help
+  604  sudo aws ecs run-task --task-definition nginx --cluster nginx --count 2
+  605  ecs-cli ps
+  606  sudo aws ecs run-task --task-definition nginx --cluster nginx --count 2
+  607  ecs-cli ps
+  608  aws elb create-load-balancer-listeners --load-balancer-name my-load-balancer --listeners "Protocol=HTTP,LoadBalancerPort=80,InstanceProtocol=HTTP,InstancePort=80
+  609  sudo aws elb create-load-balancer-listeners --load-balancer-name my-load-balancer --listeners "Protocol=HTTP,LoadBalancerPort=80,InstanceProtocol=HTTP,InstancePort=80"
+  610  sudo aws elb 
+  611  sudo aws elb help
+  612  sudo aws elb create-load-balancer help
+  613  sudo aws elb create-load-balancer --load-balancer-name nginx-elb
+  614  sudo aws elb create-load-balancer --load-balancer-name nginx-elb --listeners help
+  615  sudo aws elb create-load-balancer --load-balancer-name nginx-elb --listeners
+  616  sudo aws elb create-load-balancer --load-balancer-name nginx-elb --listeners help
+  617  sudo aws elb create-load-balancer --load-balancer-name nginx-elb --listeners "Protocol=HTTP,LoadBalancerPort=80,InstanceProtocol=HTTP,InstancePort=80" --subnets subnet-6040af4e subnet-32728e55 --security-groups amazon-ecs-cli-setup-nginx-EcsSecurityGroup-YMJGGWRB9FDP
+  618  sudo aws elb create-load-balancer --load-balancer-name nginx-elb --listeners "Protocol=HTTP,LoadBalancerPort=80,InstanceProtocol=HTTP,InstancePort=80" --subnets subnet-6040af4e subnet-32728e55 --security-groups YMJGGWRB9FDP
+  619  sudo aws elb create-load-balancer --load-balancer-name nginx-elb --listeners "Protocol=HTTP,LoadBalancerPort=80,InstanceProtocol=HTTP,InstancePort=80" --subnets subnet-6040af4e subnet-32728e55 --security-groups 
+  620  sudo aws elb create-load-balancer --load-balancer-name nginx-elb --listeners "Protocol=HTTP,LoadBalancerPort=80,InstanceProtocol=HTTP,InstancePort=80" --subnets subnet-6040af4e subnet-32728e55 --security-groups sg-35a3a67c
+  621  aws elb register-instances-with-load-balancer --load-balancer-name nginx-elb --instances
+  622  ecs-cli ps
+  623  ecs-cli ps ?
+  624  ecs-cli ps help
+  625  ecs-cli ps --help
+  626  aws elb register-instances-with-load-balancer --load-balancer-name nginx-elb --instances 5d2afcdc-20f6-4e4b-8166-e0c128e6b47c/nginx 
+  627  sudo aws elb register-instances-with-load-balancer --load-balancer-name nginx-elb --instances 5d2afcdc-20f6-4e4b-8166-e0c128e6b47c/nginx 
+  628  sudo aws get-instances
+  629  sudo aws ecs get-instances
+  630  sudo aws ecs list
+  631  sudo aws ecs list-task-definitions
+  632  sudo aws ec2
+  633  sudo aws ec2 help
+  634  sudo aws ec2 describe-instances
+  635  sudo aws ec2 list-instances
+  636  sudo aws ec2 describe-instances help
+  637  sudo aws ec2 describe-instances --filters instanc-id
+  638  sudo aws ec2 describe-instances --filters instance-id
+  639  sudo aws ec2 describe-instances --filters=instance-id
+  640  sudo aws ec2 describe-instances help
+  641  sudo aws ec2 describe-instances --filters "Name=instance-id"
+  642  sudo aws ec2 describe-instances --filters "instance-id"
+  643  sudo aws ec2 describe-instances --filters "Name=, Value="
+  644  sudo aws ec2 describe-instances --filters "Name=, Value="
+  645  sudo aws ec2 describe-instances --filters "Name=tag:Name, Values=ECS Instance - amazon-ecs-cli-setup-nginx"
+  646  sudo aws ec2 describe-instances --filters "Name=tag:Name, Values=ECS Instance - amazon-ecs-cli-setup-nginx" | grep -i instanceId
+  647  sudo aws ec2 describe-instances --filters "Name=tag:Name, Values=ECS Instance - amazon-ecs-cli-setup-nginx" | grep -i instanceId | awk {"print $2"}
+  648  sudo aws ec2 describe-instances --filters "Name=tag:Name, Values=ECS Instance - amazon-ecs-cli-setup-nginx" | grep -i instanceId | awk {"print $2"}
+  649  sudo aws ec2 describe-instances --filters "Name=tag:Name, Values=ECS Instance - amazon-ecs-cli-setup-nginx" | grep -i instanceId | awk {"print $4"}
+  650  aws elb register-instances-with-load-balancer --load-balancer-name nginx-elb --instances i-05dfb7a149defc56e i-0927821108b63975a
+  651  sudo aws elb register-instances-with-load-balancer --load-balancer-name nginx-elb --instances i-05dfb7a149defc56e i-0927821108b63975a
+  652  history > history
