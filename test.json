@@ -1,7 +1,0 @@
-POST /2013-04-01/trafficpolicy HTTP/1.1
-<?xml version="1.0" encoding="UTF-8"?>
-<CreateTrafficPolicyRequest xmlns="https://route53.amazonaws.com/doc/2013-04-01/">
-   <Name>MyTrafficPolicy</Name>
-   <Document>traffic policy definition in JSON format</Document>
-   <Comment>First traffic policy</Comment>
-</CreateTrafficPolicyRequest>
