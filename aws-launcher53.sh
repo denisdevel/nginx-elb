@@ -3,21 +3,21 @@
 ROUTE53_INSTANCE_NAME='nginx.cluster-2.co.uk'
 
 #create instances
-#ecs-cli  up --keypair main --capability-iam --size 2 --instance-type t2.micro --force
+ecs-cli  up --keypair main --capability-iam --size 2 --instance-type t2.micro --force
 
 #build docker image
-#docker build -t 653152952980.dkr.ecr.us-east-1.amazonaws.com/ubuntu-nginx:latest .
+docker build -t 653152952980.dkr.ecr.us-east-1.amazonaws.com/ubuntu-nginx:latest .
 
 #create aws registry
-#aws ecr create-repository --repository-name ubuntu-nginx
+aws ecr create-repository --repository-name ubuntu-nginx
 
 #push image to the aws registry
-#ecs-cli push 653152952980.dkr.ecr.us-east-1.amazonaws.com/ubuntu-nginx
+ecs-cli push 653152952980.dkr.ecr.us-east-1.amazonaws.com/ubuntu-nginx
 
 #create task
-#aws ecs register-task-definition --cli-input-json file://nginx-task.json
+aws ecs register-task-definition --cli-input-json file://nginx-task.json
 
-#aws ecs run-task --task-definition nginx --cluster nginx2 --count 2
+aws ecs run-task --task-definition nginx --cluster nginx2 --count 2
 
 #get subnets from running ecs instances
 SUBNET1=`aws ec2 describe-instances --filters "Name=tag:Name, Values=nginx1" | grep SubnetId | cut -d ":" -f 2 | sed 'n;d;' | tr '\n' ' ' | tr --delete , | tr --delete \"`
