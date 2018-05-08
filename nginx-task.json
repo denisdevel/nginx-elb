@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "nginx",
-            "image": "653152952980.dkr.ecr.us-east-1.amazonaws.com/ubuntu-nginx",
+            "image": "registry-name/ubuntu-nginx",
             "cpu": 10,
             "memory": 500,
             "portMappings": [
@@ -16,3 +16,4 @@
         }
     ]
 }
+
