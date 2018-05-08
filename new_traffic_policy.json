@@ -1,7 +1,0 @@
-{
-    "TrafficPolicy": {
-        "Document": "{\"AWSPolicyFormatVersion\":\"2015-10-01\",\"RecordType\":\"A\",\"StartRule\":\"site_switch\",\"Endpoints\":{\"nginx_elb1\":{\"Type\":\"elastic-load-balancer\",\"Value\":\"nginx-elb1-323133597.us-east-1.elb.amazonaws.com\"},\"nginx_elb2\":{\"Type\":\"elastic-load-balancer\",\"Value\":\"nginx-elb1-323133597.us-east-1.elb.amazonaws.com\"}},\"Rules\":{\"site_switch\":{\"RuleType\":\"failover\",\"Primary\":{\"EndpointReference\":\"nginx_elb1\",\"EvaluateTargetHealth\":true},\"Secondary\":{\"EndpointReference\":\"nginx_elb2\",\"EvaluateTargetHealth\":true}}}}", 
-        "Type": "A", 
-        "Name": "test"
-    }
-}
