@@ -1,13 +1,26 @@
 {
-   "RuleType": "failover",
-   "Primary": {
-      "EndpointReference | RuleReference": " nginx-elb1-323133597.us-east-1.elb.amazonaws.com ",
-      "EvaluateTargetHealth": "true" | "false",
-      "HealthCheck": "optional health check ID"
-   },
-   "Secondary": {
-      "EndpointReference | RuleReference": " nginx-elb2-1831745144.us-east-1.elb.amazonaws.com ",
-      "EvaluateTargetHealth": "true" | "false",
-      "HealthCheck": "optional health check ID"
+   "AWSPolicyFormatVersion":"2015-10-01",
+   "RecordType":"A",
+   "StartRule":"site_switch",
+   "Endpoints":{
+      "node1":{
+         "Type":"elastic-load-balancer",
+         "Value":"elb1"
+      },
+      "node2":{
+         "Type":"elastic-load-balancer",
+         "Value":"elb2"
+      }
+    },
+   "Rules":{
+      "site_switch":{
+         "RuleType":"failover",
+         "Primary":{
+            "EndpointReference":"node1"
+         },
+         "Secondary":{
+            "EndpointReference":"node2"
+         }
+      }
    }
 }
